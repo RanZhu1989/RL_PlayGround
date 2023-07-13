@@ -3,7 +3,8 @@
 --------------------------------------------------
 This repository is still under construction. Till now, the following algorithms are included:
 - [x] Classical Value-based Algorithms: [Sarsa], [Q-Learning]
-- [x] Value Function Approximation Algorithms: [Naive Q-Learning with neural network (Naive Q_nn)], [Naive Q_nn with replay buffer],[DQN] 
+- [x] Value Function Approximation Algorithms: [Naive Q-Learning with neural network (Naive Q_nn)], [Naive Q_nn with replay buffer],[Vanilla DQN]
+- [x] Classical Policy-based Algorithms: [REINFORCE]
 
 In the future, I will add more algorithms, such as policy-based algorithms, actor-critic algorithms, offline RL algorithms and serval applications of RL in power distribution systems.
 
@@ -14,9 +15,12 @@ If you have already known basic concepts and mathematical notations of reinforce
 
 ## 2. Requirements
 All the codes are tested on the following environment:
-- pytorch == 2.0.1
-- gymnasium == 0.28.1
-- numpy == 1.24.3
+- python == 3.8
+- pytorch == 2.0
+- gymnasium == 0.28
+- numpy == 1.24
+- matplotlib == 3.2
+- pandas == 2.0
 
 ## 3. Thanks
 I would like to thank Dr.Zhao for his unselfish sharing of the course materials (https://www.bilibili.com/video/BV1sd4y167NS/)
