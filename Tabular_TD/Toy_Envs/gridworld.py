@@ -170,7 +170,7 @@ class CliffWalkingWapper(gym.Wrapper):
 if __name__ == '__main__':
     # 环境1：FrozenLake, 可以配置冰面是否是滑的
     # 0 left, 1 down, 2 right, 3 up
-    env = gym.make("FrozenLake-v0", is_slippery=False)
+    env = gym.make("FrozenLake-v1", is_slippery=False)
     env = FrozenLakeWapper(env)
 
     # 环境2：CliffWalking, 悬崖环境
@@ -188,7 +188,7 @@ if __name__ == '__main__':
     env.reset()
     for step in range(10):
         action = np.random.randint(0, 4)
-        obs, reward, done, info = env.step(action)
-        print('step {}: action {}, obs {}, reward {}, done {}, info {}'.format(\
-                step, action, obs, reward, done, info))
+        obs, reward, terminated, truncated, info = env.step(action)
+        print('step {}: action {}, obs {}, reward {}, terminated {}, truncated{} info {}'.format(\
+                step, action, obs, reward, terminated, truncated, info))
         env.render()  # 渲染一帧图像
