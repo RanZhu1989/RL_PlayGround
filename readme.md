@@ -1,6 +1,7 @@
 # Reinforcement Learning Playground for Beginners
 
 Author: Ran Zhu @ Southeast University, China; State Grid NARI Group Corporation, China
+
 Email: gemina_cat@163.com
 
 --------------------------------------------------
