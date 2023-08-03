@@ -7,12 +7,13 @@ Email: gemina_cat@163.com
 --------------------------------------------------
 This repository is still under construction. Till now, the following algorithms are included:
 - [x] Classical Value-based Algorithms: [Sarsa], [Q-Learning]
-- [x] Value Function Approximation Algorithms: [Naive Q-Learning with neural network (Naive Q_nn)], [Naive Q_nn with replay buffer],[Vanilla DQN]
+- [x] Value Function Approximation Algorithms: [Naive Q-Learning with neural network (Naive Q_nn)], [Naive Q_nn with replay buffer],[Vanilla DQN],[Double DQN] 
 - [x] Classical Policy-based Algorithms: [REINFORCE] [QAC] [A2C] [PPO]
+- [x] Hybrid: [DDPG]
 
 Besides, this repository is created to relax myself (and to learn something interesting) because of the pressure of my PhD study. I will update it sporadically. If you have any questions, please contact me via email.
 
-In the future, I will add more algorithms, such as actor-critic algorithms, offline RL algorithms including several applications of RL in power distribution systems.
+In the future, I will add more algorithms, such as offline RL algorithms including several applications of RL in power distribution systems.
 
 ## 1. Introduction
 This repository is a playground for beginners to learn reinforcement learning. It is a collection of simple environments and agents to get you started with reinforcement learning. Each algorithm is implemented in a single ipynb file with less than 500 lines of code, which written in pytorch and based on the latest gymnasium. The goal of this project is to provide a simple and clear implementation for each algorithm.
