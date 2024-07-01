@@ -1,6 +1,6 @@
 # Reinforcement Learning Playground for Beginners
 
-Author: Ran Zhu @ Southeast University, China; State Grid NARI Group Corporation, China
+Author: Ran Zhu @ Southeast University, China
 
 Email: gemina_cat@163.com
 
@@ -10,6 +10,7 @@ This repository is still under construction. Till now, the following algorithms 
 - [x] Value Function Approximation Algorithms: [Naive Q-Learning with neural network (Naive Q_nn)], [Naive Q_nn with replay buffer],[Vanilla DQN],[Double DQN] 
 - [x] Classical Policy-based Algorithms: [REINFORCE] [QAC] [A2C] [PPO]
 - [x] Hybrid: [DDPG]
+- [x] Imitation Learning: [Behavior-Cloning] [Generative_Adversarial_Imitation_Learning]
 
 Besides, this repository is created to relax myself (and to learn something interesting) because of the pressure of my PhD study. I will update it sporadically. If you have any questions, please contact me via email.
 
