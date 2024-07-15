@@ -9,8 +9,8 @@ This repository is still under construction. Till now, the following algorithms 
 - [x] Classical Value-based Algorithms: [Sarsa], [Q-Learning]
 - [x] Value Function Approximation Algorithms: [Naive Q-Learning with neural network (Naive Q_nn)], [Naive Q_nn with replay buffer],[Vanilla DQN],[Double DQN] 
 - [x] Classical Policy-based Algorithms: [REINFORCE] [QAC] [A2C] [PPO]
-- [x] Hybrid: [DDPG]
-- [x] Imitation Learning: [Behavior-Cloning] [Generative_Adversarial_Imitation_Learning] [DAgger]
+- [x] Hybrid: [DDPG] [SAC]
+- [x] Imitation Learning: [Behavior-Cloning] [Generative-Adversarial-Imitation-Learning] [DAgger]
 
 Besides, this repository is created to relax myself (and to learn something interesting) because of the pressure of my PhD study. I will update it sporadically. If you have any questions, please contact me via email.
 
