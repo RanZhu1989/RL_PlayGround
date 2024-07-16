@@ -11,6 +11,7 @@ This repository is still under construction. Till now, the following algorithms 
 - [x] Classical Policy-based Algorithms: [REINFORCE] [QAC] [A2C] [PPO]
 - [x] Hybrid: [DDPG] [SAC]
 - [x] Imitation Learning: [Behavior-Cloning] [Generative-Adversarial-Imitation-Learning] [DAgger]
+- [X] Offline Learning: [BCQ] [CQL]
 
 Besides, this repository is created to relax myself (and to learn something interesting) because of the pressure of my PhD study. I will update it sporadically. If you have any questions, please contact me via email.
 
