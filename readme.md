@@ -6,12 +6,24 @@ Email: gemina_cat@163.com
 
 --------------------------------------------------
 This repository is still under construction. Till now, the following algorithms are included:
-- [x] Classical Value-based Algorithms: [Sarsa], [Q-Learning]
-- [x] Value Function Approximation Algorithms: [Naive Q-Learning with neural network (Naive Q_nn)], [Naive Q_nn with replay buffer],[Vanilla DQN],[Double DQN] 
-- [x] Classical Policy-based Algorithms: [REINFORCE] [QAC] [A2C] [PPO]
-- [x] Hybrid: [DDPG] [SAC]
-- [x] Imitation Learning: [Behavior-Cloning] [Generative-Adversarial-Imitation-Learning] [DAgger]
-- [X] Offline Learning: [BCQ] [CQL]
+
+| Categories| Algorithm | Environment |
+|-----------------|-----------------|-----------------|
+| Tabular Value-based | Sarsa  |  FrozenLake (Non-gym-official) |
+|Tabular Value-based | Q-learning  |  FrozenLake (Non-gym-official) |
+| Value Approximation   | DQN (Nature 2016)   | CartPole  |
+| Value Approximation   | Double DQN   | CartPole  |
+| Value Approximation   | DDPG  | Pendulum  |
+| Policy Optimization  | REINFORCE  | CartPole  |
+| Policy Optimization  | QAC  | CartPole  |
+| Policy Optimization  | A2C  | CartPole  |
+| Policy Optimization  | PPO  | CartPole  |
+| Policy Optimization  | SAC  | Pendulum  |
+| Imitation Learning  | Behavior-Cloning  | CartPole  |
+| Imitation Learning  | GAIL  | CartPole  |
+| Imitation Learning  | DAgger  | CartPole  |
+| Offline Learning  | BCQ  | CartPole  |
+| Offline Learning  | CQL  | CartPole  |
 
 Besides, this repository is created to relax myself (and to learn something interesting) because of the pressure of my PhD study. I will update it sporadically. If you have any questions, please contact me via email.
 
@@ -37,6 +49,7 @@ All the codes are tested on the following environment:
 - numpy == 1.24
 - matplotlib == 3.2
 - pandas == 2.0
+- tqdm
 
 ## 4. Thanks
 I would like to thank Dr.Zhao for his unselfish sharing of the course materials (https://www.bilibili.com/video/BV1sd4y167NS/). 
